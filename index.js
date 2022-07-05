@@ -3,7 +3,7 @@ const cors = require("cors");
 const app = express();
 //헤로쿠에서 포트 지정하는게 있으면 그 번호 사용
 //없으면 8080포트 사용
-const port = precess.env.PORT || 8080;
+const port = process.env.PORT || 8080;
 const models = require('./models');
 
 //업로드 이미지를 관리하는 스토리지 서버를 연결 -> 멀터를 사용하겠다.
